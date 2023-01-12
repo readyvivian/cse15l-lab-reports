@@ -11,8 +11,7 @@ Vivian Wang | A17457779 | v8wang@ucsd.edu
     ```
     $ ssh cs15lwi23zz@ieng6.ucsd.edu
     ```
-* If you get the message:
-    
+* If you get the message:  
     ```
     The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
     RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
@@ -20,10 +19,8 @@ Vivian Wang | A17457779 | v8wang@ucsd.edu
     ```
     Type `yes`.
 * Type your password after `Password: ` and press enter. (You won't see anything while typing.)
-* You will see:
-    
-    <img width="484" alt="image" src="https://user-images.githubusercontent.com/122570273/212195449-ecfabbc8-7cb8-41cb-ba3c-39c61276f537.png">
-    
+* You will see:  
+    <img width="484" alt="image" src="https://user-images.githubusercontent.com/122570273/212195449-ecfabbc8-7cb8-41cb-ba3c-39c61276f537.png">  
     Now your terminal is remotely connected to a computer in the CSE basement.
 ## Step 3: Trying Some Commands
 Try to run some command, e.g.:
