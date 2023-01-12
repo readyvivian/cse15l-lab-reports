@@ -3,13 +3,11 @@ Vivian Wang | A17457779 | v8wang@ucsd.edu
 ## Step 1: Installing VScode
 * Visit [Visual Studio Code website](https://code.visualstudio.com/).
 * Download and install Visual Studio Code.
-* Open a window:
-    
+* Open a window:  
     <img width="759" alt="image" src="https://user-images.githubusercontent.com/122570273/212195532-9f4470a7-f781-4f4e-9174-e888fca28fa2.png">
 ## Step 2: Remotely Connecting
 * Open a terminal in VScode.
-* Type the command and replace `cs15lwi23zz` with the course-specific account:
-    
+* Type the command and replace `cs15lwi23zz` with the course-specific account:  
     ```
     $ ssh cs15lwi23zz@ieng6.ucsd.edu
     ```
