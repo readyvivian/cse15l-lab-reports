@@ -3,14 +3,17 @@
 1. Visit: [Visual Studio Code website](https://code.visualstudio.com/).
 2. Download and install Visual Studio Code.
 3. Open a window:
+    
     <img width="759" alt="image" src="https://user-images.githubusercontent.com/122570273/212195532-9f4470a7-f781-4f4e-9174-e888fca28fa2.png">
 ## Step 2: Remotely Connecting
 1. Open a terminal in VScode.
 2. Type the command and replace `cs15lwi23zz` with the course-specific account:
+    
     ```
     $ ssh cs15lwi23zz@ieng6.ucsd.edu
     ```
 3. If you get the message:
+    
     ```
     The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
     RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
