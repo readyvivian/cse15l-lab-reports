@@ -19,6 +19,7 @@
     Type `yes`.
 4. Type your password after `Password: ` and press enter: (You won't see anything while typing)
 5. You will see:
+    
     <img width="484" alt="image" src="https://user-images.githubusercontent.com/122570273/212195449-ecfabbc8-7cb8-41cb-ba3c-39c61276f537.png">
     
     Now your terminal is remotely connected to a computer in the CSE basement.
