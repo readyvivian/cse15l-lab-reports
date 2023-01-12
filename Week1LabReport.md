@@ -27,4 +27,5 @@ Try to run some command, e.g.:
 * `cd` Change working directory.
 * `ls` List the files and folders in the current working directory.
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` Print the contents of the file.
+
 <img width="560" alt="image" src="https://user-images.githubusercontent.com/122570273/212197520-c821936b-3b5e-4e37-965c-53e05fc53fc8.png">
