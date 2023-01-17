@@ -6,7 +6,7 @@ Vivian Wang | A17457779 | v8wang@ucsd.edu
 * Download and install Visual Studio Code.
 * Open a window:  
     <img width="350" alt="image" src="https://user-images.githubusercontent.com/122570273/212195532-9f4470a7-f781-4f4e-9174-e888fca28fa2.png">
-    ![week1-step1](../lab-report-images/week-step1.png)
+    ![week1-step1](lab-report-images/week-step1.png)
 
 ## Step 2: Remotely Connecting
 * Open a terminal in VScode.
