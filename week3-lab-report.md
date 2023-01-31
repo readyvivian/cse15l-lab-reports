@@ -107,41 +107,21 @@ For the `reversed` method in `ArrayExamples.java`:
   After:
 
   ```java
-  // in ArrayExamples.java
-  public int[] input;
-  
-  ArrayExamples(int[] input) {
-  		this.input = input;
-  }
-  
-  // Changes the input array to be in reversed order
-  public void reverseInPlace() {
-      int[] result = new int[input.length];
-      for(int i = 0; i < input.length; i += 1) {
-    	    result[i] = input[input.length - i - 1];
+  static void reverseInPlace(int[] arr) {
+      int[] temp = new int[arr.length];
+      for(int i = 0; i < arr.length; i += 1) {
+      		temp[i] = arr[arr.length - i - 1];
       }
-      input = result;
-  }
-  
-  // in ArrayTests.java
-  @Test
-  public void testReverseInPlace1() {
-  	  ArrayExamples test = new ArrayExamples(new int[] {1, 2, 3});
-      test.reverseInPlace();
-      assertArrayEquals(new int[] {3, 2, 1}, test.input);
-  }
-  
-  @Test
-  public void testReverseInPlace2() {
-      ArrayExamples test = new ArrayExamples(new int[] {1, 2, 1});
-      test.reverseInPlace();
-      assertArrayEquals(new int[] {1, 2, 1}, test.input);
+      for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = temp[i];
+      }
   }
   ```
-
+  
 * Why the fix addresses the issue:
-  In the original program, the changes made on `arr` is made on the local variable, which will not affect the initial variable in the caller. So, to make changes on the initial variable, we need to create an instance variable `input` and make changes on it.
+  In the original program, the changes made on `arr` will overwrite the first half of the array, so the data in the first half of the array is lost. So, we need a temporary array to store all the data reversely, and then deep-copy them back to `arr`.
 
 ## Part 3
 
-This is the first time I learned about web server and git. 
+This is the first time I learned about web server and git. It is interesting to code for a web by myself and see it actually works well. Git is a super useful tool allow me to keep the files on my computer updated with the ones on GitHub. This is a good way to store files and also keep track of what changes and progresses I have made.
+
