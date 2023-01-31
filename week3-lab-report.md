@@ -1,6 +1,6 @@
 # Week 3 Lab Report
 
-Vivian Wang | A17457779 | v8wang@ucsd.edu
+Vivian Wang|A17457779|v8wang@ucsd.edu
 
 ## Part 1
 
