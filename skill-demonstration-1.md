@@ -7,8 +7,8 @@ git clone https://github.com/ucsd-cse15l-w23/skill-demo1-server
 
 cd skill-demo1-server
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore
-FileServerTests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FileServerTests
+(find junit command in week 3 setup)
 
 git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
 
