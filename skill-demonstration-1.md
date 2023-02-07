@@ -1,1 +1,2 @@
 
+ZoK;BoMiFuYaSeWuRa@oDaSoVoPiZo
