@@ -8,7 +8,8 @@ Vivian Wang    A17457779    v8wang@ucsd.edu
 
 This command only prints the results that has the whole-word matched. Without this command, it will still be printed as a result even if the word is a substring of another word
 
-* Example 1:
+* Example 1: This command is useful in this example because it searches for specific whole state name "Hawaii" and will not be affected by other words that contain "Hawaii" as a substring.
+  
   ```
   % grep -w "Hawaii" written_2/travel_guides/berlitz1/HandRHawaii.txt
           Kahala Mandarin Oriental Hawaii $$$$ 5000 Kahala Avenue,
@@ -16,8 +17,9 @@ This command only prints the results that has the whole-word matched. Without th
           the world for years, and it is still one of Hawaii’s premier oceanfront
           the best hotel pools and swimming beaches in Hawaii. 419 rooms.
   ```
-
-* Example 2:
+  
+* Example 2: This command is useful in this example because it searches for specific whole character name "Sharon" and will not be affected by other words that contain "Sharon" as a substring.
+  
   ```
   % grep -w "Sharon" written_2/non-fiction/OUP/Berk/*.txt
   written_2/non-fiction/OUP/Berk/ch1.txt:•Bob and Sharon, parents of a 4-year-old: Our daughter, Lydia, could recite her ABCs and count from 1 to 20 by age 2 1/2. When we looked for a preschool, many programs appeared to do little more than let children play, so we chose one with lots of emphasis on academics. To me, Lydia’s preschool seems like great preparation for kindergarten and ﬁrst grade, but each morning, Lydia hates to go. Why is Lydia, who’s always been an upbeat, curious child, so unhappy?
@@ -26,9 +28,9 @@ This command only prints the results that has the whole-word matched. Without th
 
 ### `grep -i`
 
-This command ignore cases when searching.
+This command ignores cases when searching.
 
-* Example 1:
+* Example 1: This command is useful in this example because it ignores cases so that "Hong" is also a result for searching "hong".
   ```
   % grep -i "hong" written_2/travel_guides/berlitz1/HandRHongKong.txt
           Hong Kong has some of the most luxurious hotels in the
@@ -37,7 +39,7 @@ This command ignore cases when searching.
           indicate high-season rates in Hong Kong dollars, based on double
   ```
 
-* Example 2:
+* Example 2: This command is useful in this example because it ignores cases so that "The" and "the" are both results for searching "the".
   ```
   % grep -i "the" written_2/travel_guides/berlitz1/HandRIbiza.txt
           The establishments listed below offer a cross-section of
@@ -49,15 +51,15 @@ This command ignore cases when searching.
 
 ### `grep -r`
 
-This command search recursively through all the subdirectories.
+This command searches recursively through all the subdirectories.
 
-* Example 1:
+* Example 1: This command is useful in this example because it searches every txt file inside the given directory `written_2/travel_guides/berlitz1` so we don't need to type each file's name manually.
   ```
   % grep -r "Ebusus" written_2/travel_guides/berlitz1
   written_2/travel_guides/berlitz1/HistoryIbiza.txt:        Ebysos, the Romans called it Ebusus, and the Moors, Yebisah.
   ```
 
-* Example 2:
+* Example 2: This command is useful in this example because it searches every txt file inside the given directory `written_2` so we don't need to type each file's name manually.
   ```
   % grep -r "Sharon" written_2
   written_2/non-fiction/OUP/Berk/ch2.txt:Furthermore, prior to this age, children have diculty inferring characters’ motives and connecting contradictory TV scenes into a coherent story line. They cannot appreciate why a character who at ﬁrst seemed like a “good guy” but later behaves aggressively is really a “bad guy.” They evaluate such characters and their actions much too favorably.110 For example, psychologist Sharon Purdie showed second graders a complex dramatic program in which an accused kidnapper, who had at ﬁrst appeared friendly, tried to shoot a prosecution witness and got arrested during the attempt. Children who failed to grasp the kidnapper’s motive and the reason for the arrest judged him to be “good,” not “bad.”111
@@ -69,7 +71,7 @@ This command search recursively through all the subdirectories.
 
 This command prints the filenames with the number of lines that has the string.
 
-* Example 1:
+* Example 1: This command is useful in this example because it counts the number of lines that have the string "they" instead of printing each line out, so it is clear to know how many times "they" occurs in each file.
   ```
   % grep -c "they" written_2/non-fiction/OUP/Berk/*.txt
   written_2/non-fiction/OUP/Berk/CH4.txt:72
@@ -78,7 +80,7 @@ This command prints the filenames with the number of lines that has the string.
   written_2/non-fiction/OUP/Berk/ch7.txt:56
   ```
 
-* Example 2:
+* Example 2: This command is useful in this example because it counts the number of lines that have the string "Hong Kong" instead of printing each line out, so it is clear to know how many times "Hong Kong" occurs in each file.
   ```
   % grep -c "Hong Kong" written_2/travel_guides/berlitz1/HandR*.txt
   written_2/travel_guides/berlitz1/HandRHawaii.txt:0
