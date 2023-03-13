@@ -76,6 +76,7 @@ This option finds file by size. It allows you to search for files that are exact
   ./travel_guides/berlitz1/HandRIbiza.txt
   ./travel_guides/berlitz1/HandRLakeDistrict.txt
   ./travel_guides/berlitz1/HandRJerusalem.txt
+  ```
 
 ### `-mtime`
 
@@ -94,7 +95,8 @@ This option finds file by last modification time. It allows you to search for fi
   non-fiction/OUP/Abernathy/ch9.txt
   non-fiction/OUP/Abernathy/ch15.txt
   non-fiction/OUP/Abernathy/ch14.txt
-
+  ```
+  
 * Example 2: This option is useful in this example beacause it finds all directories in the directory `travel_guides/berlitz1` that are modified 30 or more days ago. It finds no file that matches.
   ```
   % find travel_guides/berlitz1 -mtime +30
